@@ -8,3 +8,4 @@ Project is located at `/src` with directory structure as follow:
 - `/controllers`: controllers
 - `/routes`: routes
 - `/libs`: custom classes/functions
+- `/tests`: tests
