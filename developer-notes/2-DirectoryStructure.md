@@ -7,5 +7,5 @@ Project is located at `/src` with directory structure as follow:
 - `/views`: views
 - `/controllers`: controllers
 - `/routes`: routes
-- `/libs`: custom classes/functions
+- `/libs`: custom classes/functions (Server, Route, view, etc.)
 - `/tests`: tests
