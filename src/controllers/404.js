@@ -4,4 +4,4 @@ const controller404 =  (request, response, route) => {
   console.log('404');
 };
 
-module.exports =controller404;
+module.exports = controller404;

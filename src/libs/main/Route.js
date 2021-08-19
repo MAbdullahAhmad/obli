@@ -1,8 +1,3 @@
-// # Extended Errors
-class NoRoutesSpecifiedError extends Error {};
-class InvalidRoutesError extends Error {};
-class RouteNotFoundError extends Error {};
-
 /**
  * Route Constructor
  * 
@@ -58,6 +53,7 @@ const Route = function(path='/', controller){
 
   // # Returns self if path matched with route-path
   this.match = (path_to_match) => {
+
     // - If Simple String Path
     if(!this.placeholder_path){
       if(this.path == path_to_match){
